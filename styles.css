@@ -1,0 +1,13 @@
+/* navigation section */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-text-ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 40px;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
