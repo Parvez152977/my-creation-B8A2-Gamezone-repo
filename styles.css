@@ -71,3 +71,26 @@ footer{
     padding: 20px;
     /* background: rgb(12, 12, 12); */
 }
+.foot-icon{
+    height: 25px;
+    width: 30px;
+}
+.foot-icon-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list{
+    height: 25px;
+    width: 30px;
+    /* padding: 20px; */
+}
+.footer-icon-list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+    padding: 0% 42% 0% 42%;
+    
+}
