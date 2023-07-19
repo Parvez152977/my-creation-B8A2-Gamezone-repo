@@ -57,11 +57,54 @@ img{
     border-radius: 20%;
     padding: 10px;
 }
+/* instant play game section */
+.instant-container{
+    display: flex;
+    justify-content: space-between;
+}
+.instant-division{
+    position: relative;
+    height: 600px;
+    width: 500px;
+    /* padding: 100px; */
+    border: 1px solid red;
+}
+.instant-h{
+    padding: 100px 100px 0px 100px;
+    font-size: 40px;
+}
+.instant-p{
+    padding: 10px 100px 100px 100px ;
+    font-size: 20px;
+}
+
+.d{
+    /* position: relative; */
+    margin: 2px 0px 0px 100px;
+    height: 90%;
+    width: 80%;
+}
+.e{
+    position: relative;
+    bottom: 80px;
+    height: 50%px;
+    width: 20%px;
+    /* margin-bottom: 100px; */
+}
+.instant-e{
+    border: 1px solid red;
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 500px;
+    /* padding-bottom: 500px; */
+
+}
+
+
 /* online games section */
 .og-text{
     text-align: center;
-
-
 }
 .b{
     font-size: 50px;
@@ -116,7 +159,6 @@ img{
     height: 30px;
     width: 30px;
 }
-
 /* footer section */
 footer{
     background: rgb(12, 12, 12);
