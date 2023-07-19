@@ -57,31 +57,40 @@ img{
     border-radius: 20%;
     padding: 10px;
 }
+/* online games section */
+
+
+
 /* element hover section */
 .hover-icon{
-    padding: 50px;
-    border: 1px solid black;
+    padding: 170px;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    place-items: center;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 20px;
-}
-.h-icon{
-    
-    text-align: center;
-    padding:  5px 50px 70px 60px;
-    border: 2px solid tomato;
-    border-radius: 20px;
-    height: 100px;
-    width: 100px;
+    /* place-items: center; */
     /* justify-content: center; */
     /* align-items: center; */
+    gap: 10px;
 }
-
-
-
+.h-icon{
+    place-items: center;
+    font-size: 10px;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    /* border: 2px solid tomato; */
+    border-radius: 20px;
+    padding: 0%;
+}
+.h-icon:hover{
+    border: 2px solid rgb(226, 39, 111);
+    cursor: pointer;
+}
+.a {
+    padding: 0px;
+    height: 30px;
+    width: 30px;
+}
 
 /* footer section */
 footer{
