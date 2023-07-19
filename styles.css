@@ -3,6 +3,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    background: white;
 }
 .nav-text-ul{
     display: flex;
@@ -20,20 +21,19 @@ nav{
     /* border: 1px solid red; */
 }
 .banner-text{
-    margin: 50px;
-    padding: 5px;
+    margin: 60px;
+    padding: 60px;
     list-style-type: none;
 }
 .banner-btn{
     margin: 10px;
     /* gap: 20px; */
 }
-/* .banner-image{
-    width: 40%;
-    height: 10%;
-} */
+
 img{
-    width: 80%;
+    margin: auto;
+    /* padding-left: 50px; */
+    width: 95%;
     height: 70%;
 }
 .btn{
