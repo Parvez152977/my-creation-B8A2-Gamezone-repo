@@ -57,6 +57,32 @@ img{
     border-radius: 20%;
     padding: 10px;
 }
+/* element hover section */
+.hover-icon{
+    padding: 50px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    place-items: center;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.h-icon{
+    
+    text-align: center;
+    padding:  5px 50px 70px 60px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+
 /* footer section */
 footer{
     background: rgb(12, 12, 12);
