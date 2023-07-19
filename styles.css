@@ -58,9 +58,34 @@ img{
     padding: 10px;
 }
 /* online games section */
+.og-text{
+    text-align: center;
 
 
-
+}
+.b{
+    font-size: 50px;
+}
+.c{
+    font-size: 15px;
+}
+.game-container{
+    padding-top: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 30px;
+    /* border: 1px solid red; */
+    height: 50%;
+    width: 100%;
+}
+.game-image{
+    font-size: 15px;
+    /* border: 2px solid blue; */
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+}
 /* element hover section */
 .hover-icon{
     padding: 170px;
